@@ -1,6 +1,10 @@
-<?php
+<style stylesheet="../assets/Accueil.php"></style>
 
-echo "<h1>Portfolio</h1>";
-require_once("Accueil/Accueil.php");
+<h1>Portfolio</h1>
+<body>
+<form action="Accueil/Accueil.php" method="post">
+    <button type="submit">Accueil</button>
+</form>
+</body>
 
-?>
+
