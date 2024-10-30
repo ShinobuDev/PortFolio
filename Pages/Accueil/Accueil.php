@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" href="../../assets/css/main.css">
 
 <?php
@@ -15,4 +16,3 @@ echo "<form action='../index.php' method='post'>
 </form>";
 echo "<img id=image src='".$data["Image"]."'>";
 ?>
-
