@@ -3,7 +3,7 @@
 <?php
 
 require_once('..\yaml\yaml.php');
-$data=yaml_parse_file("Accueil.yaml");
+$data=yaml_parse_file("Contact.yaml");
 echo "<style stylesheet='../assets/css/Accueil.css'></style>";
 
 echo "<h1>".$data["Titre"]."</h1>";
