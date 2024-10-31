@@ -13,6 +13,5 @@ echo nl2br($data["Paragraphe"]." \n");
 echo "<form action='../index.php' method='post'>
     <button type='submit'>PortFolio</button>
 </form>";
-echo "<img id=image src='".$data["Image"]."'>";
 ?>
 

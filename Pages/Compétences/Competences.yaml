@@ -1,13 +1,42 @@
 Titre: Page des compétences
 Domaines:
-  - langue: CSS
-  - langue: HTML
-  - langue: RUBY
-  - langue: PHP
-  - langue: IDE JetBrain
-  - Cybersécurité: Résau
-  - Cybersécurité: Web
-  - Langues: Français
-  - Langues: Anglais
-  - Bureautiques: Excel
-  - Bureautiques: Powerpoint
+  Langue:
+      - nom: CSS
+        niveau: 50
+        couleur: deepskyblue
+      - nom: HTML
+        niveau: 80
+        couleur: orangered
+      - nom: RUBY
+        niveau: 90
+        couleur: crimson
+      - nom: PHP
+        niveau: 60
+        couleur: cornflowerblue
+      - nom: JetBrain
+        niveau: 75
+        couleur: blueviolet
+      - nom: Bash
+        niveau: 50
+        couleur: whitesmoke
+  Cybersécurité:
+      - nom: Résau
+        niveau: 70
+        couleur: darksalmon
+      - nom: Web
+        niveau: 80
+        couleur: orange
+  Langues:
+      - nom: Français
+        niveau: 100
+        couleur: red
+      - nom: Anglais
+        niveau: 90
+        couleur: greenyellow
+  Bureautiques:
+      - nom: Excel
+        niveau: 90
+        couleur: limegreen
+      - nom: Powerpoint
+        niveau: 80
+        couleur: darkorange
