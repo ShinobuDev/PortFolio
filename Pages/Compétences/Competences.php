@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="../../assets/css/main.css">
+<Title>Compétences</Title>
+
 
 <?php
 

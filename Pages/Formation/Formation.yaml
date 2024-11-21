@@ -1,9 +1,23 @@
-Titre: Page d'accueil
-Prenom: Adrien
-Nom: ROBIN
-Accroche: Bienvenue dans mon portfolio
-Paragraphe: Après un 6 mois de BUT informatique, je me suis réorienté en BTS SIO en alternance dans l'entreprise SOLIHA
-Image: ../../assets/images/moi.jpg
+CV: lien CV
+Formation:
+  - Nom: STI2D option SIN
+    Etablissment: Institut Lemonnier
+    dateDébut: 2020
+    dateFin: 2022
+    Lieu: Caen
+    Contenu: oui
+  - Nom: BUT Informatique
+    Etablissment: IUT Grand Ouest
+    dateDébut: 2022
+    dateFin: 2023
+    Lieu: Ifs
+    Contenu: oui
+  - Nom: BTS SIO
+    Etablissment: CaenSup Saint-Ursule
+    dateDébut: 2024
+    dateFin: 2026
+    Lieu: Caen
+    Contenu: oui
 
 
 
