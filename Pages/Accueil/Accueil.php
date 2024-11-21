@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="../../assets/css/main.css">
+<link rel="stylesheet" href="../../assets/css/Acceuil.css">
 <Title>Accueil</Title>
 
 <?php
 
 require_once('..\yaml\yaml.php');
 $data = yaml_parse_file("Accueil.yaml");
-echo "<style stylesheet='../../assets/css/main.css'></style>";
+echo "<style stylesheet='../../assets/css/Accueil.css'></style>";
 
 echo "<h1>" . $data["Titre"] . "</h1>";
 

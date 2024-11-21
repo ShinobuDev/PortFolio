@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="../../assets/css/Contact.css">
+<Title>Contact</Title>
+
 <?php
 
 require_once('..\yaml\yaml.php');
@@ -12,12 +15,22 @@ foreach ($data["Formation"] as $lesFormations) {
 
 }
 echo '<form action="mail.php" method="post">
- Mail : <input type="text" name="mail">
- <br>
- Sujet : <input type="text" name="sujet">
- <br>
- Message : <textarea name="message" cols="40" rows="20"></textarea>
- <br>
+ <div class="container">
+  <input required="" type="text" name="nom" class="input">
+  <label class="label">Nom</label>
+</div>
+ <div class="container">
+  <input required="" type="text" name="mail" class="input">
+  <label class="label">Mail</label>
+</div>
+ <div class="container">
+  <input required="" type="text" name="objet" class="input">
+  <label class="label">Objet</label>
+</div>
+<div class="container">
+  <input required="" type="text" name="message" class="input">
+  <label class="label">Message</label>
+</div>
  <input type="submit" name="envoyer" value="Envoyer">
 </form>'
 ?>
