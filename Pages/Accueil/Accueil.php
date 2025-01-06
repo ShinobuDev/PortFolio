@@ -3,7 +3,7 @@
 
 <?php
 
-require_once('..\yaml\yaml.php');
+require_once('../yaml/yaml.php');
 $data = yaml_parse_file("Accueil.yaml");
 echo "<style stylesheet='../../assets/css/Accueil.css'></style>";
 
