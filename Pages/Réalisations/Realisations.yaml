@@ -1,10 +1,10 @@
 Realisations:
         - Titre: Formation Excel pour l'alternance chez SOLIHA
           Description: Conception d'un Excel pour la gestion des clés d'apparement de l'entreprise avec du VBA
-          Illustration: ../../../assets/images/Excel.png
+          Illustration: ./assets/images/Excel.png
           Documents: https://www.canva.com/design/DAGSaVj9oy4/fvDhjLiEMAtkoMfbKG54JQ/view
         - Titre: Revoir la sécurité informatique de l'entreprise
           Description: Redesign de la structure réseau dans SOLIHA en travaillant avec AltiCap
-          Illustration: ../../../assets/images/Server.png
+          Illustration: ./assets/images/Server.png
           Documents: https://www.alticap.com/
 
