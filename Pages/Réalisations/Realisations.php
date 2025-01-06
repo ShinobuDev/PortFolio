@@ -8,7 +8,7 @@ $data = yaml_parse_file("Realisations.yaml");
 
 echo "<h1>Page de Réalisations</h1>";
 
-echo "<form action='../index.php' method='post'>
+echo "<form action='../../index.php' method='post'>
     <button type='submit'>PortFolio</button>
 </form>";
 

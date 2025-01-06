@@ -9,7 +9,7 @@ echo "<style stylesheet='../../assets/css/Accueil.css'></style>";
 
 echo "<h1>" . $data["Titre"] . "</h1>";
 
-echo "<form action='../index.php' method='post'>
+echo "<form action='../../index.php' method='post'>
     <button type='submit'>PortFolio</button>
 </form>";
 
