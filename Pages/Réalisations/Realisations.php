@@ -3,7 +3,7 @@
 
 <?php
 
-require_once('..\yaml\yaml.php');
+require_once('../yaml/yaml.php');
 $data = yaml_parse_file("Realisations.yaml");
 
 echo "<h1>Page de Réalisations</h1>";

@@ -3,7 +3,7 @@
 
 <?php
 
-require_once('..\yaml\yaml.php');
+require_once('../yaml/yaml.php');
 $data = yaml_parse_file("Formation.yaml");
 echo "<h1>Page de Formation</h1>";
 echo "<form action='../../index.php' method='post'>

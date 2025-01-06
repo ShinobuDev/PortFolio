@@ -3,7 +3,7 @@
 
 <?php
 
-require_once('..\yaml\yaml.php');
+require_once('../yaml/yaml.php');
 $data = yaml_parse_file("Competences.yaml");
 
 echo "<h1>" . $data["Titre"] . "</h1>";
