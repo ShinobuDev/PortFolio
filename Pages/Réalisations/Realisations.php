@@ -13,9 +13,14 @@ echo "<form action='../../index.php' method='post'>
 </form>";
 
 foreach ($data["Realisations"] as $lesReal => $Real) {
+    echo "<div class='realisation-item'>";
     echo "<h2>" . $Real["Titre"] . "</h2>";
-    echo "<p><h3>" . $Real["Description"] . "</h3><a href='" . $Real["Documents"] . "'><img src='" . $Real["Illustration"] . "' /></a>\n";
-
+    echo "<div class='realisation-content'>";
+    echo "<h3>" . $Real["Description"] . "</h3>";
+    echo "<a href='" . $Real["Documents"] . "'>";
+    echo "<img src='../../" . $Real["Illustration"] . "' alt='" . $Real["Titre"] . "'>";
+    echo "</a>";
+    echo "</div></div>";
 }
 ?>
 
